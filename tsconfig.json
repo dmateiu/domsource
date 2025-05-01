@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist",
+    "target": "ES2022",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "inlineSourceMap": true,
+    "lib": [
+      "ES2022"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "./node_modules",
+    "./dist"
+  ]
+}
