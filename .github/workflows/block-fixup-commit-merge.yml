@@ -1,0 +1,12 @@
+name: Workflow to block fixup commits from being merged into the main branch
+
+on:
+  - pull_request
+
+jobs:
+  block-fixup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prevents fixup-commits from being merged
+        uses: 13rac1/block-fixup-merge-action@v2.0.0
