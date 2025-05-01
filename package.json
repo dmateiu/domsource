@@ -5,10 +5,13 @@
   "author": "Daniel Mateiu",
   "license": "UNLICENSED",
   "engines": {
-    "node": "^18" ,
+    "node": "^18",
     "npm": "^9"
   },
   "packageManager": "npm@9.5.1",
-  "scripts": {
+  "scripts": {},
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0"
   }
 }
