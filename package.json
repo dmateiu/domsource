@@ -1,0 +1,14 @@
+{
+  "name": "domsource",
+  "description": "Lightweight event-sourcing framework inspired by Eventric, providing DDD, CQRS, and pluggable event-store abstractions for Node.js applications.",
+  "version": "1.0.0",
+  "author": "Daniel Mateiu",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^18" ,
+    "npm": "^9"
+  },
+  "packageManager": "npm@9.5.1",
+  "scripts": {
+  }
+}
